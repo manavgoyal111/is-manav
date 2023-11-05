@@ -1,5 +1,7 @@
 function isManav(string) {
-	return string === "MANAV";
+	if (string === "MANAV" || string === "manav")
+		return true;
+	return false;
 }
 
 module.exports = isManav;
